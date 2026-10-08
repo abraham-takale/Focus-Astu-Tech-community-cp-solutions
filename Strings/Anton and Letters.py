@@ -1,0 +1,7 @@
+s=input().lower()
+letter=set(s)
+letter.discard('{')
+letter.discard('}')
+letter.discard(',')
+letter.discard(' ')
+print(len(letter))
